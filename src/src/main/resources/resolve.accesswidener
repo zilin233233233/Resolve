@@ -1,0 +1,7 @@
+accessWidener	v2	named
+
+# Resolve needs to swap Minecraft's main render target for a lower resolution one for the
+# duration of the world render, then blit it back up to the window framebuffer.
+# The field is private final in vanilla, so it has to be made accessible and mutable.
+accessible	field	net/minecraft/client/MinecraftClient	framebuffer	Lnet/minecraft/client/gl/Framebuffer;
+mutable	field	net/minecraft/client/MinecraftClient	framebuffer	Lnet/minecraft/client/gl/Framebuffer;

@@ -1,0 +1,5 @@
+{
+	"category.resolve": "Resolve Dynamic Resolution",
+	"key.resolve.open_config": "Open Resolve config",
+	"key.resolve.benchmark": "Run Resolve performance benchmark"
+}

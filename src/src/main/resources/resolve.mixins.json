@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.zilin233.resolve.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"DebugHudMixin",
+		"GameRendererAccessor",
+		"GameRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
