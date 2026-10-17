@@ -1,0 +1,5 @@
+{
+	"category.resolve": "Resolve 动态分辨率",
+	"key.resolve.open_config": "打开 Resolve 配置界面",
+	"key.resolve.benchmark": "运行 Resolve 性能测试"
+}

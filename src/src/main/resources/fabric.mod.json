@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "resolve",
+	"version": "${version}",
+	"name": "Resolve",
+	"description": "Dynamic render resolution that follows your zoom. The world is rendered at a reduced resolution to save fill rate, and snaps back to full resolution the moment you zoom in, so the detail you are actually looking at stays sharp.",
+	"authors": [
+		"zilin233"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/resolve/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.zilin233.resolve.ResolveClient"
+		],
+		"modmenu": [
+			"com.zilin233.resolve.modmenu.ResolveModMenu"
+		]
+	},
+	"mixins": [
+		"resolve.mixins.json"
+	],
+	"accessWidener": "resolve.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*",
+		"sodium": "*",
+		"iris": "*",
+		"zoomify": "*"
+	}
+}
